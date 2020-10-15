@@ -1,0 +1,68 @@
+// 
+// .animation-delay-(1-10) in decimals
+// 
+
+@for $i from 1 through 10 {
+  .animation-delay-#{$i} {
+    $value: $i / 10;
+    animation-delay: #{$value}s;
+  }
+}
+
+
+// 
+// Custom animations
+// 
+
+@keyframes fxFadeUp {
+  0% {
+    opacity: 0;
+    transform: translateY(60px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.fx-fade-up {
+  animation-name: fxFadeUp;
+  animation-fill-mode: both;
+  animation-duration: 1.3s;
+  animation-timing-function: cubic-bezier(.2,.6,.3,1);
+}
+
+@keyframes fxFadeDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.fx-fade-down {
+  animation-name: fxFadeDown;
+  animation-fill-mode: both;
+  animation-duration: 1s;
+}
+
+@keyframes fxFadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.fx-fade-in {
+  animation-name: fxFadeIn;
+  animation-fill-mode: both;
+  animation-duration: 1.5s;
+}

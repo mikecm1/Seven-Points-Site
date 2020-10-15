@@ -1,0 +1,36 @@
+// 
+// Docs specific styles
+// 
+
+.container-docs {
+  padding-top: 83px;
+}
+
+.docs-sidebar {
+  @include media-breakpoint-up(lg) {
+    height: calc(100vh - 85px);
+    position: fixed;
+    overflow: auto;
+  }
+}
+
+.docs-sidebar-left {
+  left: 0;
+}
+
+.docs-sidebar-right {
+  right: 0;
+}
+
+.docs-iconav {
+  position: relative;
+  z-index: 100;
+
+  @include media-breakpoint-up(md) {
+    display: inline-block;
+  }
+}
+
+code {
+  font-size: 80%;
+}

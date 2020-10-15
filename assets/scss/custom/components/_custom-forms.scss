@@ -1,0 +1,31 @@
+// 
+// Custom switch styling
+// 
+
+.custom-switch .custom-control-label::before {
+  top: .15rem;
+  height: 1.39rem;
+  border-radius: 1rem;
+}
+
+.custom-switch .custom-control-label::after {
+  top: .35rem;
+  left: -2.8rem;
+  background-color: #fff;
+}
+
+.custom-switch .custom-control-input:checked~.custom-control-label::after {
+  background-color: #fff;
+  transform: translateX(1.12rem);
+}
+
+
+// 
+// Custom checkbox styling
+// 
+
+.custom-checkbox .custom-control-label::before,
+.custom-checkbox .custom-control-label::after {
+  top: 0.15rem;
+  left: -1.6rem;
+}

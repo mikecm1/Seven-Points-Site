@@ -1,0 +1,106 @@
+// 
+// Overlay utility
+// 
+
+.overlay {
+  position: relative;
+
+  &:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: inherit;
+  }
+}
+
+// Context colors
+
+@each $color, $value in $theme-colors {
+  .overlay-#{$color}:before {
+    background: $value !important;
+  }
+}
+
+.overlay-white:before {
+  background: $white !important;
+}
+
+// Gradients
+
+.overlay-gradient-dark-bottom {
+  &:before {
+    background: linear-gradient(rgba(255, 255, 255, 0) 60%, rgba(29, 34, 45, 0.375) 100%);
+  }
+}
+
+.overlay-gradient-white-to-dark {
+  &:before {
+    background: linear-gradient(-180deg,#fff 0,rgba(255,255,255,.6) 25%,rgba(255,255,255,0) 100%), linear-gradient(-180deg,rgba(0,0,0,0) 0,rgba(0, 0, 0, 0.45) 100%);
+  }
+}
+
+.overlay-gradient-main {
+  &:before {
+    z-index: 0;
+    background: linear-gradient(1deg, #5E02F8 -50%, #9A10A0 100%);
+  }
+&:after {
+position: absolute;
+    content: url(/assets/img/bg-logo-overlay-white.svg);
+    right: -29%;
+    bottom: -16%;
+    max-width: 75%;
+    mix-blend-mode: overlay;
+    filter: opacity(65%);
+    z-index: 1;
+}
+}
+.overlay-gradient-page-1 {
+    &:before {
+      z-index: 0;
+    background: linear-gradient(43deg, #170118f5 12%, #7f0a8442 88%);
+  }
+  &:after {
+position: absolute;
+    content: url(/assets/img/bg-logo-overlay-white.svg);
+    right: -31%;
+    bottom: -27%;
+    max-width: 75%;
+    mix-blend-mode: overlay;
+    filter: opacity(45%);
+    z-index: 1;
+  }
+}
+
+.overlay-bg-after {
+  &:after {
+    position: absolute;
+    content: '';
+    right: -1vw;
+    top: 0;
+    height: 110%;
+    width: 49%;
+    z-index: 1;
+    background-image: url(../assets/img/contact-right.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+    bottom: auto;
+    max-width: initial;
+    mix-blend-mode: normal;
+    filter: none;
+  }
+}
+
+// Opacities
+
+@each $size, $length in $sizes {
+  @if is-integer($size) {
+    .overlay-#{$size}:before {
+      opacity: 0.8;
+    }
+  }
+}

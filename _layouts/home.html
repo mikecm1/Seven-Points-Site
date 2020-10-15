@@ -1,0 +1,143 @@
+---
+layout: default
+---
+{% include header-home.html %}
+
+<section class="intro-main">
+  <div class="container bg-white py-6 pt-lg-7 pb-lg-9">
+    <div class="row text-lg-left">
+      <div class="col-lg-8">
+        <p class="lead my-0">
+          {{ page.intro_paragraph }}
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="d-lg-flex">
+  <div class="w-lg-50 col-md-6 text-right pr-0 ml-auto mw-xxl-1000 pl-xl-6">
+    <div class="bg-cover h-250 h-lg-500 h-xl-550 h-xxl-600 bg-light" style="background-image: url('assets/img/img-render-main.jpg');">
+    </div>
+    <!-- <img src="assets/img/unsplash/70.jpeg" class="img-fluid" alt=""> -->
+  </div>
+  <div class="expand expand-top expand-right w-90 bg-light"></div>
+  <div class="w-lg-50 bg-light px-4 px-md-7 d-flex align-items-center">
+    <div class="w-xl-500">
+      <h2 class="font-base">
+        {{ page.section_1.headline }}
+      </h2>
+      <p class="my-4">
+        {{ page.section_1.body }}
+      </p>
+      <a class="btn btn-lg btn-secondary mt-2" href="{{ page.section_1.cta_url }}">
+        {{ page.section_1.cta_text }}
+      </a>
+    </div>
+  </div>
+  <div class="expand expand-bottom expand-right w-90 bg-light"></div>
+</section>
+
+
+
+<section class="bg-cover mt-10 min-vh-lg-60 pb-12" style="background-image: url('assets/img/img-render-2.jpg')">
+  <div class="container-fluid">
+    <div class="row mb-8">
+      <!-- Left side -->
+      <div class="col-md-7 col-xl-6 text-right pr-2 pb-6 bg-white">
+        <div class="text-left w-lg-500 float-xl-right mr-xl-6 mt-5 mt-lg-4 ml-lg-4">
+          <div class="d-flex align-items-center">
+            <span class="text-primary text-uppercase-bold-sm">
+              {{ page.section_2.subhead }}
+            </span>
+            <!-- <hr class="border-primary opacity-20 flex-fill ml-4"> -->
+          </div>
+          <h2 class="font-base mt-3">
+            {{ page.section_2.headline }}
+          </h2>
+          <p class="my-4">
+            {{ page.section_2.body }}
+          </p>
+          <a class="btn btn-lg btn-secondary mt-2" href="{{ page.section_2.cta_url }}">
+            {{ page.section_2.cta_text }}
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="bg-dark py-7 py-lg-9">
+    <div class="container">
+      <h1 class="display-1 font-weight-bolder text-bg-clip text-gradient">
+        {{ page.section_3.headline }}
+      </h1>
+    </div>
+    <div class="custom-shape-divider-bottom">
+      <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none" style="height:33px">
+        <defs>
+          <linearGradient spreadMethod="pad" id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" style="stop-color:rgb(154, 16, 160);stop-opacity:1;" />
+            <stop offset="100%" style="stop-color:rgb(94, 2, 248);stop-opacity:1;" />
+          </linearGradient>
+        </defs>
+        <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" fill="url(#gradient)"></path>
+      </svg>
+    </div>
+  </div>
+</section>
+
+
+<section class="bg-gray-100">
+  <div class="pt-6 pt-lg-7 pb-10">
+    <div class="container pb-6">
+      <div class="row align-items-start">
+        <div class="col-lg-6">
+          <h2 class="font-base">
+            {{ page.section_carousel.headline }}
+          </h2>
+        </div>
+        <div class="col-lg-6 pl-lg-5">
+          <p class="text-muted my-0">
+            {{ page.section_carousel.body }}
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="swiper-container" data-toggle="swiper" data-options='{"breakpoints": { "768": { "slidesPerView": 1 }, "920": { "slidesPerView": 3 }, "2000": { "slidesPerView": 4 } }, "freeMode": false, "grabCursor": true, "loop": false, "speed": 500, "spaceBetween": 25, "navigation": { "nextEl": ".swiper-custom-button-next", "prevEl": ".swiper-custom-button-prev" } }'>
+        <div class="swiper-wrapper d-flex align-items-center">
+          {% include swiper-card.html %}
+          {% include swiper-card.html %}
+          {% include swiper-card.html %}
+          {% include swiper-card.html %}
+          {% include swiper-card.html %}
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid pr-4 mt-3">
+      <div class="d-flex align-items-center justify-content-center justify-content-md-end">
+        <a href="#" class="swiper-custom-button-prev text-dark">
+          <i class="fas fa-arrow-left fa-lg"></i>
+        </a>
+        <a href="#" class="swiper-custom-button-next ml-4 text-dark">
+          <i class="fas fa-arrow-right fa-lg"></i>
+        </a>
+      </div>
+    </div>
+    <div class="container mb-5">
+      <a class="btn btn-lg btn-secondary" href="">
+        See All News
+      </a>
+    </div>
+  </div>
+  <div class="custom-shape-divider-bottom">
+    <svg style="transform: none" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+      <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" fill="#e9ddfa"></path>
+    </svg>
+  </div>
+</section>
+
+{% include footer-cta.html %}

@@ -1,0 +1,493 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1128" height="696" viewBox="0 0 1128 696">
+  <defs>
+    <polygon id="maps_br-1-a" points="0 696 1128 696 1128 0 0 0"/>
+    <polygon id="maps_br-1-c" points="0 -.001 1128 -.001 1128 696 0 696"/>
+    <polygon id="maps_br-1-e" points=".318 .79 113.58 .79 113.58 545 .318 545"/>
+    <polygon id="maps_br-1-g" points=".19 -.001 804 -.001 804 375.404 .19 375.404"/>
+    <polygon id="maps_br-1-i" points=".51 -.001 14.25 -.001 14.25 199.438 .51 199.438"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="maps_br-1-b" fill="#fff">
+      <use xlink:href="#maps_br-1-a"/>
+    </mask>
+    <use fill="#000" xlink:href="#maps_br-1-a"/>
+    <g mask="url(#maps_br-1-b)">
+      <mask id="maps_br-1-d" fill="#fff">
+        <use xlink:href="#maps_br-1-c"/>
+      </mask>
+      <path fill="#3B58AE" d="M-216.63 264.853C-216.63 264.853-195.18 252.598-175.27 251.066-155.36 249.535-118.6 246.472-87.96 254.13-57.33 261.789.88 297.019 11.6 298.549 22.32 300.081 37.64 300.081 37.64 300.081 37.64 300.081 46.83 304.676 48.36 313.866 49.89 323.057 77.46 358.285 78.99 362.881 80.52 367.477 80.52 402.705 83.59 418.021 86.65 433.339 187.74 738.147 190.81 738.147 193.87 738.147-257.98 735.084-257.98 735.084L-216.63 264.853M-179.36-190.448C-179.36-190.448-191.26-63.429-187.29-48.874-183.33-34.32-208.46-1.242-205.82 9.343-203.17 19.927-188.62 60.944-174.06 60.944-159.51 60.944-94.68 64.914-84.09 70.206-73.51 75.498-54.98 97.991-40.43 100.638-25.88 103.284 3.23 84.76 19.11 95.345 34.99 105.93 110.41 132.392 110.41 142.977 110.41 153.562 105.11 211.78 98.5 218.396 91.88 225.01-8.67 198.549-12.64 207.811-16.61 217.072-24.55 228.98-13.97 234.273-3.38 239.565 48.22 258.089 50.87 266.027 53.51 273.966 60.13 281.905 60.13 281.905 60.13 281.905 66.74 273.966 76 273.966 85.27 273.966 101.14 276.612 110.41 268.674 119.67 260.735 132.9 251.474 132.9 243.534 132.9 235.595 111.73 223.688 113.05 211.78 114.38 199.871 124.85 161.311 127.49 149.403 130.14 137.495 187.15 112.546 205.67 95.345 224.19 78.145 281.09 22.574 289.03 9.343 296.96-3.888 306.23-10.504 307.55-19.766 308.87-29.028 299.61-42.259 303.58-59.459 307.55-76.66 331.37-95.183 343.27-111.06 355.18-126.938 364.44-142.816 364.44-161.34 364.44-179.863 361.8-195.74 361.8-195.74L-179.36-190.448" mask="url(#maps_br-1-d)"/>
+      <path stroke="#505A7C" stroke-linecap="round" stroke-linejoin="round" stroke-width="5" d="M639.59,-173.98 C639.59,-173.98 567.6,41.224 567.6,58.072 C567.6,74.92 563.01,728.956 563.01,728.956 M1232.62,375.346 L207.65,375.261 C183.76,375.261 160.36,368.542 140.11,355.863 C99.45,330.41 30.78,287.172 8.88,271.836 C-22.95,249.56 -74.71,200.319 -129.47,200.319 C-184.23,200.319 -247.07,215.316 -247.07,215.316 M389.14,-175.831 C389.14,-175.831 379.29,-105.477 352.93,-72.637 C349.78,-68.709 347.22,-64.339 345.57,-59.581 L324.19,2.044 C322.44,7.088 319.81,11.785 316.42,15.91 C295.07,41.895 212.14,139.106 155.08,154.053 C107.94,166.398 -55.45,119.412 -144.93,91.569 C-181.99,80.036 -210.48,50.21 -220.36,12.674 M-47.56,231.025 C-47.56,231.025 78.11,311.141 123.66,314.281 C123.66,314.281 240.82,301.839 269.75,303.285 L706.45,303.285 C756.79,303.285 778.92,306.021 808.42,320.772 C808.42,320.772 835.75,330.705 850.84,354.179 C865.93,377.652 900.65,375.469 900.65,375.469 M1237.8,516.052 L563.71,516.052 L153.47,513.955" mask="url(#maps_br-1-d)"/>
+    </g>
+    <line x1="154.28" x2="566.93" y1="523.627" y2="515.966" stroke="#505A7C" stroke-linecap="round" stroke-linejoin="round" stroke-width="5" mask="url(#maps_br-1-b)"/>
+    <g mask="url(#maps_br-1-b)">
+      <g transform="translate(122 151)">
+        <mask id="maps_br-1-f" fill="#fff">
+          <use xlink:href="#maps_br-1-e"/>
+        </mask>
+        <path stroke="#505A7C" stroke-linecap="round" stroke-linejoin="round" stroke-width="5" d="M45.88,0.79 L58.01,31.678 L51.72,100.869 L33.9,159.576 L33.9,216.187 L0.36,267.556 C0.36,267.556 -0.69,290.619 7.69,310.538 C16.29,330.945 16.25,330.89 113.58,579.963" mask="url(#maps_br-1-f)"/>
+      </g>
+    </g>
+    <path stroke="#505A7C" stroke-linecap="round" stroke-linejoin="round" stroke-width="5" d="M153.81,156.011 L178.43,194.7 M171.72,258.534 L178.41,264.196 L177.9,371.777" mask="url(#maps_br-1-b)"/>
+    <g stroke="#505A7C" stroke-linecap="round" stroke-linejoin="round" stroke-width="5" mask="url(#maps_br-1-b)">
+      <polyline points=".7 850.141 996.99 850.141 1008 840.444 1008 .147" transform="translate(213 -179)"/>
+    </g>
+    <path stroke="#505A7C" stroke-linecap="round" stroke-linejoin="round" stroke-width="5" d="M271.12,671.465 L273.04,93.765 L261.48,78.342 M233.35,377.801 L233.35,644.798 M197.31,375.037 L197.31,513.74 M196.22,407.802 L163.45,407.802 L163.45,513.74" mask="url(#maps_br-1-b)"/>
+    <g mask="url(#maps_br-1-b)">
+      <g transform="translate(324)">
+        <mask id="maps_br-1-h" fill="#fff">
+          <use xlink:href="#maps_br-1-g"/>
+        </mask>
+        <path stroke="#505A7C" stroke-linecap="round" stroke-linejoin="round" stroke-width="5" d="M0.19,7.185 L240.83,86.283 L923.25,86.114 M242.78,240.865 L274.9,241.712 L298.59,231.559 L371.36,229.865 L389.98,240.865 L697.97,236.636 L855.36,236.636 L855.36,247.636 M823.2,298.404 L790.2,297.558 L785.13,305.173 L785.13,375.404" mask="url(#maps_br-1-h)"/>
+        <line x1="533.48" x2="535.56" y1="362.119" y2="-183.782" stroke="#505A7C" stroke-linejoin="round" stroke-width="5" mask="url(#maps_br-1-h)"/>
+      </g>
+    </g>
+    <line x1="832.38" x2="856.15" y1="335.271" y2="331.076" stroke="#505A7C" stroke-linejoin="round" stroke-width="5" mask="url(#maps_br-1-b)"/>
+    <g stroke="#505A7C" stroke-linejoin="round" stroke-width="5" mask="url(#maps_br-1-b)">
+      <g transform="translate(923 -175)">
+        <path d="M0.54,901.401 L10.46,0.014 M82.88,0.804 L77.39,909.348 M154.33,0.804 L149.42,909.348"/>
+        <line x1="112.2" x2="113.39" y1="847.763" y2="909.538" stroke-linecap="round"/>
+      </g>
+    </g>
+    <line x1="1096.92" x2="1098.28" y1="515.281" y2="376.194" stroke="#505A7C" stroke-linecap="round" stroke-linejoin="round" stroke-width="5" mask="url(#maps_br-1-b)"/>
+    <g stroke="#505A7C" stroke-linecap="round" stroke-linejoin="round" stroke-width="5" mask="url(#maps_br-1-b)">
+      <path d="M654.85,584.135 L654.85,908.233 M580.68,905.951 L586.38,555.605 M545.3,907.092 L549.86,555.605 M512.2,555.605 L509.92,918.504 M473.66,2.685 C482.35,158.456 479.45,527.961 475.11,659.823 C470.76,791.686 473.66,910.507 473.66,910.507 M474.83,603.787 L436.18,603.787 L436.18,911.866 M400.68,0.599 L402.24,923.104 M400.6,602.299 L364.79,602.299 L364.79,910.588 M327.55,696.442 L327.55,909.35 M291.64,696.489 L291.64,913.064 M217.41,556.583 L217.36,915.54 M181.5,555.298 L177.74,920.493 M146.79,696.396 L145.55,918.017 M107.17,909.35 L112.12,307.628 L113.23,302.447 C114.93,294.496 118.76,287.154 124.31,281.204 L166.6,235.818 L240.88,1.816 M122.02,222.2 L196.31,3.054 M150.5,5.531 L87.36,209.819 C87.36,209.819 42.97,259.343 39.26,300.2 C35.54,341.058 35.91,925.775 35.91,925.775 M49.21,198.437 C49.21,198.437 5.64,245.724 5.64,258.104 C5.64,270.485 0.69,380.678 0.69,380.678" transform="translate(308 -180)"/>
+    </g>
+    <line x1="179.17" x2="418.53" y1="335.79" y2="336.778" stroke="#505A7C" stroke-linecap="round" stroke-linejoin="round" stroke-width="5" mask="url(#maps_br-1-b)"/>
+    <g stroke="#505A7C" stroke-linecap="round" stroke-linejoin="round" stroke-width="5" mask="url(#maps_br-1-b)">
+      <path d="M2.1,96.089 L0.82,451.319 M110.44,156.8 L74.68,160.26 L73.53,461.3 M329.01,93.353 L329.92,25.364 C330.01,18.359 328.85,11.396 326.49,4.799 L324.82,0.104" transform="translate(306 279)"/>
+    </g>
+    <path stroke="#505A7C" stroke-linecap="round" stroke-linejoin="round" stroke-width="5" d="M680.06,275.962 L708.35,275.962 M178.91,224.623 C178.91,224.623 502.06,237.196 518.71,237.196 C527.68,237.196 536.64,247.674 518.71,251.864 C489.27,258.746 175.33,236.915 175.33,236.915 L158.34,268.314 L147.01,310.523 L148.81,361.169 M522.65,303.189 C522.65,303.189 527.08,264.162 527.08,260.466 C527.08,256.769 518.71,251.864 518.71,251.864 M419.14,192.286 L448.71,188.589 C448.71,188.589 445.02,132.397 448.71,126.482 C452.41,120.567 464.98,103.563 464.98,93.952 M421.23,122.447 L448.71,126.483" mask="url(#maps_br-1-b)"/>
+    <g mask="url(#maps_br-1-b)">
+      <g transform="translate(627)">
+        <mask id="maps_br-1-j" fill="#fff">
+          <use xlink:href="#maps_br-1-i"/>
+        </mask>
+        <polyline stroke="#505A7C" stroke-linecap="round" stroke-linejoin="round" stroke-width="5" points="9.62 199.438 14.25 -128.773 .51 -134.422" mask="url(#maps_br-1-j)"/>
+      </g>
+    </g>
+    <path stroke="#505A7C" stroke-linecap="round" stroke-linejoin="round" stroke-width="5" d="M601.95,87.026 L600.8,182.103 L635.47,182.103 M567.6,58.072 L636.62,54.979 M639.19,43.422 L706.86,43.422" mask="url(#maps_br-1-b)"/>
+    <g stroke="#505A7C" stroke-linejoin="round" stroke-width="5" mask="url(#maps_br-1-b)">
+      <g transform="translate(674 -174)">
+        <path stroke-linecap="round" d="M0.76,112.644 L1.92,217.422 M74.72,0.155 L74.72,260.181 M147.53,0.155 L148.69,260.181 M221.5,0.155 L220.34,260.181"/>
+        <path d="M294.66,109.47 L294.66,259.459 M367.5,48.229 L367.5,260.243 M360.19,259.051 L360.19,282.81 C360.19,285.924 361.31,288.933 363.35,291.288 L364.33,292.417 C366.37,294.779 367.49,297.799 367.49,300.922 L367.41,341.179 C367.4,345.715 369.76,349.926 373.64,352.281 C375.84,353.622 378.4,354.273 380.98,354.15 L402.04,353.147 M435.88,110.665 L435.88,260.207"/>
+      </g>
+    </g>
+    <polyline stroke="#505A7C" stroke-linecap="round" stroke-linejoin="round" stroke-width="5" points="600.17 304.995 599.72 325.693 634.93 326.146" mask="url(#maps_br-1-b)"/>
+    <g stroke="#1DAF97" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" mask="url(#maps_br-1-b)">
+      <path d="M0.34,0.131 C0.34,0.131 410.33,50.679 623.75,43.19 C837.17,35.701 1413.78,41.318 1413.78,41.318" transform="translate(-120 175)"/>
+    </g>
+    <path fill="#82317E" d="M565.02,412.05 C565.02,417.401 560.68,421.739 555.33,421.739 C549.97,421.739 545.64,417.401 545.64,412.05 C545.64,406.698 549.97,402.36 555.33,402.36 C560.68,402.36 565.02,406.698 565.02,412.05" mask="url(#maps_br-1-b)"/>
+    <text fill="#FFFFFE" font-family="NeutraText-DemiSC, Neutra Text" font-size="12" font-weight="400" mask="url(#maps_br-1-b)">
+      <tspan x="552.85" y="414.924">1</tspan>
+    </text>
+    <path fill="#82317E" d="M565.02,433.933 C565.02,439.283 560.68,443.622 555.33,443.622 C549.97,443.622 545.64,439.283 545.64,433.933 C545.64,428.581 549.97,424.242 555.33,424.242 C560.68,424.242 565.02,428.581 565.02,433.933" mask="url(#maps_br-1-b)"/>
+    <text fill="#FFFFFE" font-family="NeutraText-DemiSC, Neutra Text" font-size="12" font-weight="400" mask="url(#maps_br-1-b)">
+      <tspan x="549.85" y="436.806">34</tspan>
+    </text>
+    <path fill="#82317E" d="M565.02,390.167 C565.02,395.519 560.68,399.856 555.33,399.856 C549.97,399.856 545.64,395.519 545.64,390.167 C545.64,384.815 549.97,380.478 555.33,380.478 C560.68,380.478 565.02,384.815 565.02,390.167" mask="url(#maps_br-1-b)"/>
+    <text fill="#FFFFFE" font-family="NeutraText-DemiSC, Neutra Text" font-size="12" font-weight="400" mask="url(#maps_br-1-b)">
+      <tspan x="550.85" y="393.041">21</tspan>
+    </text>
+    <path fill="#82317E" d="M543.82,390.146 C543.82,395.497 539.48,399.835 534.13,399.835 C528.78,399.835 524.44,395.497 524.44,390.146 C524.44,384.794 528.78,380.456 534.13,380.456 C539.48,380.456 543.82,384.794 543.82,390.146" mask="url(#maps_br-1-b)"/>
+    <text fill="#FFFFFE" font-family="NeutraText-DemiSC, Neutra Text" font-size="12" font-weight="400" mask="url(#maps_br-1-b)">
+      <tspan x="528.65" y="393.019">33</tspan>
+    </text>
+    <path fill="#82317E" d="M484.76,358.306 C484.76,363.658 480.42,367.995 475.07,367.995 C469.72,367.995 465.38,363.658 465.38,358.306 C465.38,352.954 469.72,348.617 475.07,348.617 C480.42,348.617 484.76,352.954 484.76,358.306" mask="url(#maps_br-1-b)"/>
+    <text fill="#FFFFFE" font-family="NeutraText-DemiSC, Neutra Text" font-size="12" font-weight="400" mask="url(#maps_br-1-b)">
+      <tspan x="472.59" y="361.179">2</tspan>
+    </text>
+    <path fill="#82317E" d="M484.76,389.806 C484.76,395.158 480.42,399.496 475.07,399.496 C469.72,399.496 465.38,395.158 465.38,389.806 C465.38,384.455 469.72,380.117 475.07,380.117 C480.42,380.117 484.76,384.455 484.76,389.806" mask="url(#maps_br-1-b)"/>
+    <text fill="#FFFFFE" font-family="NeutraText-DemiSC, Neutra Text" font-size="12" font-weight="400" mask="url(#maps_br-1-b)">
+      <tspan x="469.59" y="392.68">26</tspan>
+    </text>
+    <path fill="#82317E" d="M700.16,358.306 C700.16,363.658 695.83,367.995 690.47,367.995 C685.12,367.995 680.79,363.658 680.79,358.306 C680.79,352.954 685.12,348.617 690.47,348.617 C695.83,348.617 700.16,352.954 700.16,358.306" mask="url(#maps_br-1-b)"/>
+    <text fill="#FFFFFE" font-family="NeutraText-DemiSC, Neutra Text" font-size="12" font-weight="400" mask="url(#maps_br-1-b)">
+      <tspan x="688" y="361.179">3</tspan>
+    </text>
+    <path fill="#82317E" d="M700.36,392.125 C700.36,397.477 696.02,401.815 690.67,401.815 C685.32,401.815 680.98,397.477 680.98,392.125 C680.98,386.773 685.32,382.436 690.67,382.436 C696.02,382.436 700.36,386.773 700.36,392.125" mask="url(#maps_br-1-b)"/>
+    <text fill="#FFFFFE" font-family="NeutraText-DemiSC, Neutra Text" font-size="12" font-weight="400" letter-spacing=".004" mask="url(#maps_br-1-b)">
+      <tspan x="685.19" y="394.999">25</tspan>
+    </text>
+    <path fill="#82317E" d="M565.02,499.58 C565.02,504.931 560.68,509.27 555.33,509.27 C549.97,509.27 545.64,504.931 545.64,499.58 C545.64,494.229 549.97,489.89 555.33,489.89 C560.68,489.89 565.02,494.229 565.02,499.58" mask="url(#maps_br-1-b)"/>
+    <text fill="#FFFFFE" font-family="NeutraText-DemiSC, Neutra Text" font-size="12" font-weight="400" mask="url(#maps_br-1-b)">
+      <tspan x="551.85" y="502.454">4</tspan>
+    </text>
+    <path fill="#82317E" d="M586.62,656.177 C586.62,661.529 582.28,665.867 576.93,665.867 C571.58,665.867 567.24,661.529 567.24,656.177 C567.24,650.826 571.58,646.488 576.93,646.488 C582.28,646.488 586.62,650.826 586.62,656.177" mask="url(#maps_br-1-b)"/>
+    <text fill="#FFFFFE" font-family="NeutraText-DemiSC, Neutra Text" font-size="12" font-weight="400" mask="url(#maps_br-1-b)">
+      <tspan x="574.45" y="659.052">8</tspan>
+    </text>
+    <path fill="#82317E" d="M558.43,637.106 C558.43,642.458 554.09,646.795 548.74,646.795 C543.38,646.795 539.05,642.458 539.05,637.106 C539.05,631.755 543.38,627.417 548.74,627.417 C554.09,627.417 558.43,631.755 558.43,637.106" mask="url(#maps_br-1-b)"/>
+    <text fill="#FFFFFE" font-family="NeutraText-DemiSC, Neutra Text" font-size="12" font-weight="400" mask="url(#maps_br-1-b)">
+      <tspan x="546.26" y="639.98">9</tspan>
+    </text>
+    <path fill="#82317E" d="M558.43,658.665 C558.43,664.017 554.09,668.354 548.74,668.354 C543.38,668.354 539.05,664.017 539.05,658.665 C539.05,653.313 543.38,648.975 548.74,648.975 C554.09,648.975 558.43,653.313 558.43,658.665" mask="url(#maps_br-1-b)"/>
+    <text fill="#FFFFFE" font-family="NeutraText-DemiSC, Neutra Text" font-size="12" font-weight="400" mask="url(#maps_br-1-b)">
+      <tspan x="543.26" y="661.539">10</tspan>
+    </text>
+    <path fill="#82317E" d="M589.98,359.481 C589.98,363.979 586.33,367.626 581.83,367.626 C577.33,367.626 573.69,363.979 573.69,359.481 C573.69,354.983 577.33,351.336 581.83,351.336 C586.33,351.336 589.98,354.983 589.98,359.481" mask="url(#maps_br-1-b)"/>
+    <text fill="#FFFFFE" font-family="NeutraText-DemiSC, Neutra Text" font-size="10.086" font-weight="400" letter-spacing="-.004" mask="url(#maps_br-1-b)">
+      <tspan x="578.07" y="362.651">17</tspan>
+    </text>
+    <path fill="#82317E" d="M559.44,324.556 C559.44,329.054 555.79,332.701 551.29,332.701 C546.8,332.701 543.15,329.054 543.15,324.556 C543.15,320.058 546.8,316.412 551.29,316.412 C555.79,316.412 559.44,320.058 559.44,324.556" mask="url(#maps_br-1-b)"/>
+    <text fill="#FFFFFE" font-family="NeutraText-DemiSC, Neutra Text" font-size="10.086" font-weight="400" letter-spacing=".005" mask="url(#maps_br-1-b)">
+      <tspan x="546.53" y="327.725">22</tspan>
+    </text>
+    <path fill="#82317E" d="M560.23,362.086 C560.23,366.583 556.58,370.229 552.09,370.229 C547.59,370.229 543.94,366.583 543.94,362.086 C543.94,357.588 547.59,353.941 552.09,353.941 C556.58,353.941 560.23,357.588 560.23,362.086" mask="url(#maps_br-1-b)"/>
+    <text fill="#FFFFFE" font-family="NeutraText-DemiSC, Neutra Text" font-size="10.086" font-weight="400" mask="url(#maps_br-1-b)">
+      <tspan x="549.32" y="365.255">11</tspan>
+    </text>
+    <path fill="#82317E" d="M559.65,342.905 C559.65,347.403 556,351.051 551.5,351.051 C547,351.051 543.36,347.403 543.36,342.905 C543.36,338.407 547,334.761 551.5,334.761 C556,334.761 559.65,338.407 559.65,342.905" mask="url(#maps_br-1-b)"/>
+    <text fill="#FFFFFE" font-family="NeutraText-DemiSC, Neutra Text" font-size="10.086" font-weight="400" letter-spacing="-.004" mask="url(#maps_br-1-b)">
+      <tspan x="547.74" y="346.074">31</tspan>
+    </text>
+    <path fill="#82317E" d="M339.11,363.625 C339.11,368.123 335.46,371.77 330.96,371.77 C326.46,371.77 322.82,368.123 322.82,363.625 C322.82,359.127 326.46,355.48 330.96,355.48 C335.46,355.48 339.11,359.127 339.11,363.625" mask="url(#maps_br-1-b)"/>
+    <text fill="#FFFFFE" font-family="NeutraText-DemiSC, Neutra Text" font-size="10.086" font-weight="400" letter-spacing="-.014" mask="url(#maps_br-1-b)">
+      <tspan x="327.2" y="366.794">32</tspan>
+    </text>
+    <path fill="#82317E" d="M559.48,312.812 C559.48,317.31 555.83,320.956 551.33,320.956 C546.84,320.956 543.19,317.31 543.19,312.812 C543.19,308.313 546.84,304.666 551.33,304.666 C555.83,304.666 559.48,308.313 559.48,312.812" mask="url(#maps_br-1-b)"/>
+    <text fill="#FFFFFE" font-family="NeutraText-DemiSC, Neutra Text" font-size="10.086" font-weight="400" mask="url(#maps_br-1-b)">
+      <tspan x="547.57" y="315.981">12</tspan>
+    </text>
+    <path fill="#82317E" d="M608.81,359.481 C608.81,363.979 605.17,367.626 600.67,367.626 C596.17,367.626 592.52,363.979 592.52,359.481 C592.52,354.983 596.17,351.336 600.67,351.336 C605.17,351.336 608.81,354.983 608.81,359.481" mask="url(#maps_br-1-b)"/>
+    <text fill="#FFFFFE" font-family="NeutraText-DemiSC, Neutra Text" font-size="10.086" font-weight="400" mask="url(#maps_br-1-b)">
+      <tspan x="596.9" y="362.651">18</tspan>
+    </text>
+    <path fill="#82317E" d="M627.53,359.481 C627.53,363.979 623.89,367.626 619.39,367.626 C614.89,367.626 611.24,363.979 611.24,359.481 C611.24,354.983 614.89,351.336 619.39,351.336 C623.89,351.336 627.53,354.983 627.53,359.481" mask="url(#maps_br-1-b)"/>
+    <text fill="#FFFFFE" font-family="NeutraText-DemiSC, Neutra Text" font-size="10.086" font-weight="400" mask="url(#maps_br-1-b)">
+      <tspan x="615.62" y="362.651">19</tspan>
+    </text>
+    <path fill="#82317E" d="M627.53,339.872 C627.53,344.369 623.89,348.016 619.39,348.016 C614.89,348.016 611.24,344.369 611.24,339.872 C611.24,335.374 614.89,331.727 619.39,331.727 C623.89,331.727 627.53,335.374 627.53,339.872" mask="url(#maps_br-1-b)"/>
+    <text fill="#FFFFFE" font-family="NeutraText-DemiSC, Neutra Text" font-size="10.086" font-weight="400" mask="url(#maps_br-1-b)">
+      <tspan x="613.62" y="343.041">20</tspan>
+    </text>
+    <path fill="#82317E" d="M544.1,499.58 C544.1,504.931 539.76,509.27 534.41,509.27 C529.06,509.27 524.72,504.931 524.72,499.58 C524.72,494.229 529.06,489.89 534.41,489.89 C539.76,489.89 544.1,494.229 544.1,499.58" mask="url(#maps_br-1-b)"/>
+    <text fill="#FFFFFE" font-family="NeutraText-DemiSC, Neutra Text" font-size="12" font-weight="400" mask="url(#maps_br-1-b)">
+      <tspan x="531.94" y="502.454">6</tspan>
+    </text>
+    <path fill="#82317E" d="M565.02,477.697 C565.02,483.049 560.68,487.387 555.33,487.387 C549.97,487.387 545.64,483.049 545.64,477.697 C545.64,472.346 549.97,468.008 555.33,468.008 C560.68,468.008 565.02,472.346 565.02,477.697" mask="url(#maps_br-1-b)"/>
+    <text fill="#FFFFFE" font-family="NeutraText-DemiSC, Neutra Text" font-size="12" font-weight="400" mask="url(#maps_br-1-b)">
+      <tspan x="552.85" y="480.571">7</tspan>
+    </text>
+    <path fill="#82317E" d="M665.54,255.613 C665.54,260.964 661.2,265.303 655.85,265.303 C650.5,265.303 646.16,260.964 646.16,255.613 C646.16,250.262 650.5,245.924 655.85,245.924 C661.2,245.924 665.54,250.262 665.54,255.613" mask="url(#maps_br-1-b)"/>
+    <text fill="#FFFFFE" font-family="NeutraText-DemiSC, Neutra Text" font-size="12" font-weight="400" mask="url(#maps_br-1-b)">
+      <tspan x="653.37" y="258.487">5</tspan>
+    </text>
+    <text fill="#FFFFFE" font-family="NeutraText-DemiSC, Neutra Text" font-size="17.81" font-weight="400" letter-spacing="0" mask="url(#maps_br-1-b)">
+      <tspan x="52.98" y="45.098">lake of the isl</tspan> <tspan x="165.419" y="45.098" letter-spacing=".091">e</tspan> <tspan x="173.935" y="45.098">s</tspan>
+    </text>
+    <text fill="#FFFFFE" font-family="NeutraText-DemiSC, Neutra Text" font-size="17.81" font-weight="400" mask="url(#maps_br-1-b)">
+      <tspan x="20.88" y="611.074">bde maka ska</tspan>
+    </text>
+    <text fill="#FFFFFE" font-family="NeutraText-DemiSC, Neutra Text" font-size="12" font-weight="400" letter-spacing="0" mask="url(#maps_br-1-b)">
+      <tspan x="601.48" y="375.649">w lake </tspan> <tspan x="638.971" y="375.649" letter-spacing="-.229">s</tspan> <tspan x="643.806" y="375.649">t</tspan>
+    </text>
+    <text fill="#FFFFFE" font-family="NeutraText-DemiSC, Neutra Text" font-size="16.578" font-weight="400" letter-spacing="-.001" mask="url(#maps_br-1-b)">
+      <tspan x="586.24" y="406.007">seven</tspan>
+    </text>
+    <text fill="#FFFFFE" font-family="NeutraText-DemiSC, Neutra Text" font-size="16.578" font-weight="400" letter-spacing="-.001" mask="url(#maps_br-1-b)">
+      <tspan x="583.09" y="419.816">points</tspan>
+    </text>
+    <text fill="#FFFFFE" font-family="NeutraText-DemiSC, Neutra Text" font-size="12" font-weight="400" mask="url(#maps_br-1-b)">
+      <tspan x="440.98" y="209.046">mi</tspan> <tspan x="451.636" y="209.046" letter-spacing="-.348">d</tspan> <tspan x="457.456" y="209.046" letter-spacing="-.349">t</tspan> <tspan x="462.507" y="209.046" letter-spacing="-.286">o</tspan> <tspan x="469.577" y="209.046">wn green</tspan> <tspan x="518.333" y="209.046" letter-spacing="-.906">w</tspan> <tspan x="525.383" y="209.046" letter-spacing="-1.002">a</tspan> <tspan x="529.673" y="209.046">y</tspan>
+    </text>
+    <text fill="#FFFFFE" font-family="NeutraText-DemiSC, Neutra Text" font-size="12" font-weight="400" mask="url(#maps_br-1-b)" transform="rotate(90 564.66 300.654)">
+      <tspan x="530.66" y="303.654">hennepin </tspan> <tspan x="579.752" y="303.654">av</tspan> <tspan x="592.4" y="303.654">e</tspan>
+    </text>
+    <text fill="#FFFFFE" font-family="NeutraText-DemiSC, Neutra Text" font-size="12" font-weight="400" letter-spacing="-.002" mask="url(#maps_br-1-b)">
+      <tspan x="430.9" y="520.26">w 31</tspan>
+    </text>
+    <text fill="#FFFFFE" font-family="NeutraText-DemiSC, Neutra Text" font-size="6.996" font-weight="400" letter-spacing="-.019" mask="url(#maps_br-1-b)">
+      <tspan x="451.48" y="515.767">st</tspan>
+    </text>
+    <text fill="#FFFFFE" font-family="NeutraText-DemiSC, Neutra Text" font-size="12" font-weight="400" letter-spacing="-.019" mask="url(#maps_br-1-b)">
+      <tspan x="457.79" y="520.26"> st</tspan>
+    </text>
+    <path fill="#82317E" d="M664.52,316.952 C664.52,322.304 660.18,326.643 654.83,326.643 C649.48,326.643 645.14,322.304 645.14,316.952 C645.14,311.602 649.48,307.263 654.83,307.263 C660.18,307.263 664.52,311.602 664.52,316.952" mask="url(#maps_br-1-b)"/>
+    <text fill="#FFFFFE" font-family="NeutraText-DemiSC, Neutra Text" font-size="12" font-weight="400" mask="url(#maps_br-1-b)">
+      <tspan x="650.36" y="319.826">13</tspan>
+    </text>
+    <path fill="#82317E" d="M595.31,197.403 C595.31,202.755 590.98,207.094 585.62,207.094 C580.27,207.094 575.93,202.755 575.93,197.403 C575.93,192.051 580.27,187.714 585.62,187.714 C590.98,187.714 595.31,192.051 595.31,197.403" mask="url(#maps_br-1-b)"/>
+    <text fill="#FFFFFE" font-family="NeutraText-DemiSC, Neutra Text" font-size="12" font-weight="400" mask="url(#maps_br-1-b)">
+      <tspan x="580.14" y="200.278">28</tspan>
+    </text>
+    <path fill="#82317E" d="M609.85,258.312 C609.85,263.662 605.52,268.001 600.17,268.001 C594.81,268.001 590.48,263.662 590.48,258.312 C590.48,252.96 594.81,248.621 600.17,248.621 C605.52,248.621 609.85,252.96 609.85,258.312" mask="url(#maps_br-1-b)"/>
+    <text fill="#FFFFFE" font-family="NeutraText-DemiSC, Neutra Text" font-size="12" font-weight="400" letter-spacing=".004" mask="url(#maps_br-1-b)">
+      <tspan x="594.69" y="261.185">29</tspan>
+    </text>
+    <path fill="#82317E" d="M699.53,249.254 C699.53,254.604 695.19,258.943 689.84,258.943 C684.48,258.943 680.15,254.604 680.15,249.254 C680.15,243.902 684.48,239.563 689.84,239.563 C695.19,239.563 699.53,243.902 699.53,249.254" mask="url(#maps_br-1-b)"/>
+    <text fill="#FFFFFE" font-family="NeutraText-DemiSC, Neutra Text" font-size="12" font-weight="400" mask="url(#maps_br-1-b)">
+      <tspan x="684.36" y="252.128">30</tspan>
+    </text>
+    <path fill="#82317E" d="M659.52,288.186 C659.52,293.537 655.18,297.875 649.83,297.875 C644.48,297.875 640.14,293.537 640.14,288.186 C640.14,282.834 644.48,278.496 649.83,278.496 C655.18,278.496 659.52,282.834 659.52,288.186" mask="url(#maps_br-1-b)"/>
+    <text fill="#FFFFFE" font-family="NeutraText-DemiSC, Neutra Text" font-size="12" font-weight="400" letter-spacing=".004" mask="url(#maps_br-1-b)">
+      <tspan x="643.36" y="291.059">23</tspan>
+    </text>
+    <path fill="#82317E" d="M565.02,455.814 C565.02,461.167 560.68,465.504 555.33,465.504 C549.97,465.504 545.64,461.167 545.64,455.814 C545.64,450.463 549.97,446.126 555.33,446.126 C560.68,446.126 565.02,450.463 565.02,455.814" mask="url(#maps_br-1-b)"/>
+    <text fill="#FFFFFE" font-family="NeutraText-DemiSC, Neutra Text" font-size="12" font-weight="400" mask="url(#maps_br-1-b)">
+      <tspan x="550.85" y="458.688">14</tspan>
+    </text>
+    <path fill="#82317E" d="M831.08,260.31 C831.08,265.66 826.74,269.998 821.39,269.998 C816.04,269.998 811.7,265.66 811.7,260.31 C811.7,254.957 816.04,250.619 821.39,250.619 C826.74,250.619 831.08,254.957 831.08,260.31" mask="url(#maps_br-1-b)"/>
+    <text fill="#FFFFFE" font-family="NeutraText-DemiSC, Neutra Text" font-size="12" font-weight="400" mask="url(#maps_br-1-b)">
+      <tspan x="816.91" y="263.182">15</tspan>
+    </text>
+    <path fill="#82317E" d="M816.16,338.835 C816.16,344.186 811.82,348.524 806.47,348.524 C801.12,348.524 796.78,344.186 796.78,338.835 C796.78,333.483 801.12,329.145 806.47,329.145 C811.82,329.145 816.16,333.483 816.16,338.835" mask="url(#maps_br-1-b)"/>
+    <text fill="#FFFFFE" font-family="NeutraText-DemiSC, Neutra Text" font-size="12" font-weight="400" mask="url(#maps_br-1-b)">
+      <tspan x="800.99" y="341.709">27</tspan>
+    </text>
+    <path fill="#82317E" d="M776.14,331.389 C776.14,336.74 771.8,341.078 766.45,341.078 C761.1,341.078 756.76,336.74 756.76,331.389 C756.76,326.037 761.1,321.699 766.45,321.699 C771.8,321.699 776.14,326.037 776.14,331.389" mask="url(#maps_br-1-b)"/>
+    <text fill="#FFFFFE" font-family="NeutraText-DemiSC, Neutra Text" font-size="12" font-weight="400" mask="url(#maps_br-1-b)">
+      <tspan x="760.97" y="334.263">35</tspan>
+    </text>
+    <path fill="#82317E" d="M890.32,349.69 C890.32,355.042 885.98,359.38 880.63,359.38 C875.28,359.38 870.94,355.042 870.94,349.69 C870.94,344.339 875.28,340.001 880.63,340.001 C885.98,340.001 890.32,344.339 890.32,349.69" mask="url(#maps_br-1-b)"/>
+    <text fill="#FFFFFE" font-family="NeutraText-DemiSC, Neutra Text" font-size="12" font-weight="400" mask="url(#maps_br-1-b)">
+      <tspan x="876.15" y="352.564">16</tspan>
+    </text>
+    <path fill="#82317E" d="M810.14,390.123 C810.14,395.475 805.8,399.813 800.45,399.813 C795.1,399.813 790.76,395.475 790.76,390.123 C790.76,384.771 795.1,380.434 800.45,380.434 C805.8,380.434 810.14,384.771 810.14,390.123" mask="url(#maps_br-1-b)"/>
+    <text fill="#FFFFFE" font-family="NeutraText-DemiSC, Neutra Text" font-size="12" font-weight="400" letter-spacing="-.003" mask="url(#maps_br-1-b)">
+      <tspan x="794.97" y="392.997">24</tspan>
+    </text>
+    <path fill="#F1A944" d="M587.96,390.198 C587.96,394.164 584.75,397.379 580.79,397.379 C576.82,397.379 573.6,394.164 573.6,390.198 C573.6,386.232 576.82,383.018 580.79,383.018 C584.75,383.018 587.96,386.232 587.96,390.198" mask="url(#maps_br-1-b)"/>
+    <polygon fill="#22242A" points="653 673.5 1098.1 673.5 1098.1 419 653 419" mask="url(#maps_br-1-b)"/>
+    <text fill="#FFFFFE" font-family="Rift-Demi, Rift" font-size="20" font-weight="400" letter-spacing="2.445" mask="url(#maps_br-1-b)">
+      <tspan x="778" y="447">u</tspan> <tspan x="789.405" y="447" letter-spacing="3.025">p</tspan> <tspan x="800.971" y="447" letter-spacing="2.813">t</tspan> <tspan x="810.984" y="447" letter-spacing="2.685">o</tspan> <tspan x="822.59" y="447" letter-spacing="2.813">w</tspan> <tspan x="838.243" y="447" letter-spacing="2.545">n</tspan> <tspan x="850.168" y="447" letter-spacing="2.813"> </tspan> <tspan x="855.982" y="447" letter-spacing="2.025">a</tspan> <tspan x="865.587" y="447" letter-spacing="3.265">t</tspan> <tspan x="876.133" y="447" letter-spacing="2.813">t</tspan> <tspan x="886.226" y="447" letter-spacing="3.145">r</tspan> <tspan x="898.391" y="447" letter-spacing="2.665">a</tspan> <tspan x="909.397" y="447" letter-spacing="2.865">c</tspan> <tspan x="921.022" y="447" letter-spacing="2.813">t</tspan> <tspan x="931.116" y="447" letter-spacing="2.405">i</tspan> <tspan x="937.801" y="447">o</tspan> <tspan x="949.286" y="447" letter-spacing="2.545">n</tspan> <tspan x="961.212" y="447" letter-spacing="2.813">s</tspan>
+    </text>
+    <line x1="664.5" x2="1082.5" y1="460.3" y2="460.3" stroke="#505A7D" mask="url(#maps_br-1-b)"/>
+    <text fill="#FFFFFE" font-family="NeutraText-BoldSC, Neutra Text" font-size="9" font-weight="bold" letter-spacing="0" mask="url(#maps_br-1-b)">
+      <tspan x="664.5" y="477.199">1 </tspan>
+    </text>
+    <text fill="#FFFFFE" font-family="NeutraText-DemiAlt, Neutra Text" font-size="9" font-weight="400" mask="url(#maps_br-1-b)">
+      <tspan x="674.5" y="477.199">Apple</tspan>
+    </text>
+    <text fill="#FFFFFE" font-family="NeutraText-BoldSC, Neutra Text" font-size="9" font-weight="bold" letter-spacing="0" mask="url(#maps_br-1-b)">
+      <tspan x="664.5" y="493.201">2 </tspan>
+    </text>
+    <text fill="#FFFFFE" font-family="NeutraText-DemiAlt, Neutra Text" font-size="9" font-weight="400" mask="url(#maps_br-1-b)">
+      <tspan x="674.5" y="493.201">Lunds &amp; Byerlys</tspan>
+    </text>
+    <text fill="#FFFFFE" font-family="NeutraText-BoldSC, Neutra Text" font-size="9" font-weight="bold" letter-spacing="0" mask="url(#maps_br-1-b)">
+      <tspan x="664.5" y="509.203">3 </tspan>
+    </text>
+    <text fill="#FFFFFE" font-family="NeutraText-DemiAlt, Neutra Text" font-size="9" font-weight="400" mask="url(#maps_br-1-b)">
+      <tspan x="674.5" y="509.203">Target</tspan>
+    </text>
+    <text fill="#FFFFFE" font-family="NeutraText-BoldSC, Neutra Text" font-size="9" font-weight="bold" letter-spacing="0" mask="url(#maps_br-1-b)">
+      <tspan x="664.5" y="525.205">4 </tspan>
+    </text>
+    <text fill="#FFFFFE" font-family="NeutraText-DemiAlt, Neutra Text" font-size="9" font-weight="400" mask="url(#maps_br-1-b)">
+      <tspan x="674.5" y="525.205">Paper Source</tspan>
+    </text>
+    <text fill="#FFFFFE" font-family="NeutraText-BoldSC, Neutra Text" font-size="9" font-weight="bold" letter-spacing="0" mask="url(#maps_br-1-b)">
+      <tspan x="664.5" y="541.207">5 </tspan>
+    </text>
+    <text fill="#FFFFFE" font-family="NeutraText-DemiAlt, Neutra Text" font-size="9" font-weight="400" mask="url(#maps_br-1-b)">
+      <tspan x="674.5" y="541.207">WeWork Uptown</tspan>
+    </text>
+    <text fill="#FFFFFE" font-family="NeutraText-BoldSC, Neutra Text" font-size="9" font-weight="bold" letter-spacing="0" mask="url(#maps_br-1-b)">
+      <tspan x="664.5" y="557.209">6 </tspan>
+    </text>
+    <text fill="#FFFFFE" font-family="NeutraText-DemiAlt, Neutra Text" font-size="9" font-weight="400" mask="url(#maps_br-1-b)">
+      <tspan x="674.5" y="557.209">Sooki &amp; Mimi</tspan>
+    </text>
+    <text fill="#FFFFFE" font-family="NeutraText-BoldSC, Neutra Text" font-size="9" font-weight="bold" letter-spacing="0" mask="url(#maps_br-1-b)">
+      <tspan x="664.5" y="573.211">7 </tspan>
+    </text>
+    <text fill="#FFFFFE" font-family="NeutraText-DemiAlt, Neutra Text" font-size="9" font-weight="400" mask="url(#maps_br-1-b)">
+      <tspan x="674.5" y="573.211">Magers &amp; Quinn</tspan>
+    </text>
+    <text fill="#FFFFFE" font-family="NeutraText-BoldSC, Neutra Text" font-size="9" font-weight="bold" letter-spacing="-.001" mask="url(#maps_br-1-b)">
+      <tspan x="664.5" y="589.213">8 </tspan>
+    </text>
+    <text fill="#FFFFFE" font-family="NeutraText-DemiAlt, Neutra Text" font-size="9" font-weight="400" mask="url(#maps_br-1-b)">
+      <tspan x="674.5" y="589.213">Black Walnut Bakery</tspan>
+    </text>
+    <text fill="#FFFFFE" font-family="NeutraText-BoldSC, Neutra Text" font-size="9" font-weight="bold" letter-spacing="0" mask="url(#maps_br-1-b)">
+      <tspan x="664.5" y="605.215">9 </tspan>
+    </text>
+    <text fill="#FFFFFE" font-family="NeutraText-DemiAlt, Neutra Text" font-size="9" font-weight="400" mask="url(#maps_br-1-b)">
+      <tspan x="674.5" y="605.215">La La Homemade Ice Cream</tspan>
+    </text>
+    <text fill="#FFFFFE" font-family="NeutraText-BoldSC, Neutra Text" font-size="9" font-weight="bold" letter-spacing="0" mask="url(#maps_br-1-b)">
+      <tspan x="664.5" y="621.217">10 </tspan>
+    </text>
+    <text fill="#FFFFFE" font-family="NeutraText-BookSC, Neutra Text" font-size="9" font-weight="300" letter-spacing="-.001" mask="url(#maps_br-1-b)">
+      <tspan x="676.63" y="621.217">TRUCE</tspan>
+    </text>
+    <text fill="#FFFFFE" font-family="NeutraText-DemiAlt, Neutra Text" font-size="9" font-weight="400" mask="url(#maps_br-1-b)">
+      <tspan x="704.67" y="621.217"> Uptown</tspan>
+    </text>
+    <text fill="#FFFFFE" font-family="NeutraText-BoldSC, Neutra Text" font-size="9" font-weight="bold" letter-spacing="0" mask="url(#maps_br-1-b)">
+      <tspan x="664.5" y="637.219">11 </tspan>
+    </text>
+    <text fill="#FFFFFE" font-family="NeutraText-DemiAlt, Neutra Text" font-size="9" font-weight="400" mask="url(#maps_br-1-b)">
+      <tspan x="674.5" y="637.219">ROAM Furniture &amp; Lighting</tspan>
+    </text>
+    <text fill="#FFFFFE" font-family="NeutraText-BoldSC, Neutra Text" font-size="9" font-weight="bold" mask="url(#maps_br-1-b)">
+      <tspan x="664.5" y="653.221">12 </tspan>
+    </text>
+    <text fill="#FFFFFE" font-family="NeutraText-DemiAlt, Neutra Text" font-size="9" font-weight="400" mask="url(#maps_br-1-b)">
+      <tspan x="674.5" y="653.221">John Fleuvog</tspan>
+    </text>
+    <text fill="#FFFFFE" font-family="NeutraText-BoldSC, Neutra Text" font-size="9" font-weight="bold" letter-spacing="0" mask="url(#maps_br-1-b)">
+      <tspan x="819" y="477.217">13 </tspan>
+    </text>
+    <text fill="#FFFFFE" font-family="NeutraText-DemiAlt, Neutra Text" font-size="9" font-weight="400" mask="url(#maps_br-1-b)">
+      <tspan x="829" y="477.217">Agra Culture</tspan>
+    </text>
+    <text fill="#FFFFFE" font-family="NeutraText-BoldSC, Neutra Text" font-size="9" font-weight="bold" mask="url(#maps_br-1-b)">
+      <tspan x="819" y="493.219">14 </tspan>
+    </text>
+    <text fill="#FFFFFE" font-family="NeutraText-DemiAlt, Neutra Text" font-size="9" font-weight="400" mask="url(#maps_br-1-b)">
+      <tspan x="829" y="493.219">Penzey’s Spices</tspan>
+    </text>
+    <text fill="#FFFFFE" font-family="NeutraText-BoldSC, Neutra Text" font-size="9" font-weight="bold" letter-spacing="0" mask="url(#maps_br-1-b)">
+      <tspan x="819" y="509.221">15 </tspan>
+    </text>
+    <text fill="#FFFFFE" font-family="NeutraText-DemiAlt, Neutra Text" font-size="9" font-weight="400" mask="url(#maps_br-1-b)">
+      <tspan x="829" y="509.221">Cub Foods</tspan>
+    </text>
+    <text fill="#FFFFFE" font-family="NeutraText-BoldSC, Neutra Text" font-size="9" font-weight="bold" mask="url(#maps_br-1-b)">
+      <tspan x="819" y="525.223">16 </tspan>
+    </text>
+    <text fill="#FFFFFE" font-family="NeutraText-DemiAlt, Neutra Text" font-size="9" font-weight="400" mask="url(#maps_br-1-b)">
+      <tspan x="829" y="525.223">CVS</tspan>
+    </text>
+    <text fill="#FFFFFE" font-family="NeutraText-BoldSC, Neutra Text" font-size="9" font-weight="bold" letter-spacing="0" mask="url(#maps_br-1-b)">
+      <tspan x="819" y="541.225">17 </tspan>
+    </text>
+    <text fill="#FFFFFE" font-family="NeutraText-DemiAlt, Neutra Text" font-size="9" font-weight="400" mask="url(#maps_br-1-b)">
+      <tspan x="829" y="541.225">Aveda Juut Salon</tspan>
+    </text>
+    <text fill="#FFFFFE" font-family="NeutraText-BoldSC, Neutra Text" font-size="9" font-weight="bold" letter-spacing="0" mask="url(#maps_br-1-b)">
+      <tspan x="819" y="557.227">18 </tspan>
+    </text>
+    <text fill="#FFFFFE" font-family="NeutraText-DemiAlt, Neutra Text" font-size="9" font-weight="400" mask="url(#maps_br-1-b)">
+      <tspan x="829" y="557.227">Bonchon Minneapolis</tspan>
+    </text>
+    <text fill="#FFFFFE" font-family="NeutraText-BoldSC, Neutra Text" font-size="9" font-weight="bold" letter-spacing="0" mask="url(#maps_br-1-b)">
+      <tspan x="819" y="573.229">19 </tspan>
+    </text>
+    <text fill="#FFFFFE" font-family="NeutraText-DemiAlt, Neutra Text" font-size="9" font-weight="400" mask="url(#maps_br-1-b)">
+      <tspan x="829" y="573.229">Tenka Ramen</tspan>
+    </text>
+    <text fill="#FFFFFE" font-family="NeutraText-BoldSC, Neutra Text" font-size="9" font-weight="bold" letter-spacing="0" mask="url(#maps_br-1-b)">
+      <tspan x="819" y="589.231">20 </tspan>
+    </text>
+    <text fill="#FFFFFE" font-family="NeutraText-DemiAlt, Neutra Text" font-size="9" font-weight="400" mask="url(#maps_br-1-b)">
+      <tspan x="829" y="589.231"> Stella’s Fish Café &amp; Oyster Bar</tspan>
+    </text>
+    <text fill="#FFFFFE" font-family="NeutraText-BoldSC, Neutra Text" font-size="9" font-weight="bold" mask="url(#maps_br-1-b)">
+      <tspan x="819" y="605.233">21 </tspan>
+    </text>
+    <text fill="#FFFFFE" font-family="NeutraText-DemiAlt, Neutra Text" font-size="9" font-weight="400" mask="url(#maps_br-1-b)">
+      <tspan x="829" y="605.233">Urban Outﬁtters</tspan>
+    </text>
+    <text fill="#FFFFFE" font-family="NeutraText-BoldSC, Neutra Text" font-size="9" font-weight="bold" letter-spacing=".009" mask="url(#maps_br-1-b)">
+      <tspan x="819" y="621.235">2</tspan> <tspan x="823.338" y="621.235" letter-spacing="-.06">2</tspan> <tspan x="827.517" y="621.235"> </tspan>
+    </text>
+    <text fill="#FFFFFE" font-family="NeutraText-DemiAlt, Neutra Text" font-size="9" font-weight="400" mask="url(#maps_br-1-b)">
+      <tspan x="829" y="621.235">Landmark Cinema – Uptown</tspan>
+    </text>
+    <text fill="#FFFFFE" font-family="NeutraText-BoldSC, Neutra Text" font-size="9" font-weight="bold" letter-spacing=".003" mask="url(#maps_br-1-b)">
+      <tspan x="819" y="637.237">23 </tspan>
+    </text>
+    <text fill="#FFFFFE" font-family="NeutraText-DemiAlt, Neutra Text" font-size="9" font-weight="400" mask="url(#maps_br-1-b)">
+      <tspan x="829" y="637.237">Landmark Cinema – Lagoon</tspan>
+    </text>
+    <text fill="#FFFFFE" font-family="NeutraText-BoldSC, Neutra Text" font-size="9" font-weight="bold" letter-spacing="0" mask="url(#maps_br-1-b)">
+      <tspan x="819" y="653.239">24 </tspan>
+    </text>
+    <text fill="#FFFFFE" font-family="NeutraText-DemiAlt, Neutra Text" font-size="9" font-weight="400" mask="url(#maps_br-1-b)">
+      <tspan x="829" y="653.239">Moxy Hotel</tspan>
+    </text>
+    <text fill="#FFFFFE" font-family="NeutraText-BoldSC, Neutra Text" font-size="9" font-weight="bold" letter-spacing=".01" mask="url(#maps_br-1-b)">
+      <tspan x="973.501" y="477.235">2</tspan> <tspan x="977.84" y="477.235" letter-spacing="-.074">5</tspan> <tspan x="982.059" y="477.235"> </tspan>
+    </text>
+    <text fill="#FFFFFE" font-family="NeutraText-DemiAlt, Neutra Text" font-size="9" font-weight="400" mask="url(#maps_br-1-b)">
+      <tspan x="983.5" y="477.235">LOCAL (</tspan>
+    </text>
+    <text fill="#FFFFFE" font-family="NeutraText-BookSC, Neutra Text" font-size="9" font-weight="300" letter-spacing="-.001" mask="url(#maps_br-1-b)">
+      <tspan x="1016.881" y="477.235">4</tspan> <tspan x="1021.137" y="477.235" letter-spacing="-.121">0</tspan> <tspan x="1026.028" y="477.235">2</tspan>
+    </text>
+    <text fill="#FFFFFE" font-family="NeutraText-DemiAlt, Neutra Text" font-size="9" font-weight="400" mask="url(#maps_br-1-b)">
+      <tspan x="1030.071" y="477.235"> Units)</tspan>
+    </text>
+    <text fill="#FFFFFE" font-family="NeutraText-BoldSC, Neutra Text" font-size="9" font-weight="bold" letter-spacing="0" mask="url(#maps_br-1-b)">
+      <tspan x="973.501" y="493.237">26 </tspan>
+    </text>
+    <text fill="#FFFFFE" font-family="NeutraText-DemiAlt, Neutra Text" font-size="9" font-weight="400" mask="url(#maps_br-1-b)">
+      <tspan x="983.5" y="493.237">Sons of Norway (</tspan>
+    </text>
+    <text fill="#FFFFFE" font-family="NeutraText-BookSC, Neutra Text" font-size="9" font-weight="300" letter-spacing="-.014" mask="url(#maps_br-1-b)">
+      <tspan x="1047.53" y="493.237">3</tspan> <tspan x="1051.35" y="493.237" letter-spacing=".08">2</tspan> <tspan x="1055.309" y="493.237">6</tspan>
+    </text>
+    <text fill="#FFFFFE" font-family="NeutraText-DemiAlt, Neutra Text" font-size="9" font-weight="400" mask="url(#maps_br-1-b)">
+      <tspan x="1059.4" y="493.237"> Units)</tspan>
+    </text>
+    <text fill="#FFFFFE" font-family="NeutraText-BoldSC, Neutra Text" font-size="9" font-weight="bold" letter-spacing=".001" mask="url(#maps_br-1-b)">
+      <tspan x="973.501" y="509.239">27 </tspan>
+    </text>
+    <text fill="#FFFFFE" font-family="NeutraText-DemiAlt, Neutra Text" font-size="9" font-weight="400" mask="url(#maps_br-1-b)">
+      <tspan x="983.5" y="509.239">The Asher (</tspan>
+    </text>
+    <text fill="#FFFFFE" font-family="NeutraText-BookSC, Neutra Text" font-size="9" font-weight="300" letter-spacing="-.007" mask="url(#maps_br-1-b)">
+      <tspan x="1026.57" y="509.239">175</tspan>
+    </text>
+    <text fill="#FFFFFE" font-family="NeutraText-DemiAlt, Neutra Text" font-size="9" font-weight="400" mask="url(#maps_br-1-b)">
+      <tspan x="1036.8" y="509.239"> Units)</tspan>
+    </text>
+    <text fill="#FFFFFE" font-family="NeutraText-BoldSC, Neutra Text" font-size="9" font-weight="bold" letter-spacing="0" mask="url(#maps_br-1-b)">
+      <tspan x="973.501" y="525.241">28 </tspan>
+    </text>
+    <text fill="#FFFFFE" font-family="NeutraText-DemiAlt, Neutra Text" font-size="9" font-weight="400" mask="url(#maps_br-1-b)">
+      <tspan x="983.5" y="525.241">Trilogy (</tspan>
+    </text>
+    <text fill="#FFFFFE" font-family="NeutraText-BookSC, Neutra Text" font-size="9" font-weight="300" letter-spacing=".002" mask="url(#maps_br-1-b)">
+      <tspan x="1013.351" y="525.241">150</tspan>
+    </text>
+    <text fill="#FFFFFE" font-family="NeutraText-DemiAlt, Neutra Text" font-size="9" font-weight="400" mask="url(#maps_br-1-b)">
+      <tspan x="1024.97" y="525.241"> Units)</tspan>
+    </text>
+    <text fill="#FFFFFE" font-family="NeutraText-BoldSC, Neutra Text" font-size="9" font-weight="bold" letter-spacing=".003" mask="url(#maps_br-1-b)">
+      <tspan x="973.501" y="541.243">29 </tspan>
+    </text>
+    <text fill="#FFFFFE" font-family="NeutraText-DemiAlt, Neutra Text" font-size="9" font-weight="400" mask="url(#maps_br-1-b)">
+      <tspan x="983.5" y="541.243">Mosaic West</tspan>
+    </text>
+    <text fill="#FFFFFE" font-family="NeutraText-BoldSC, Neutra Text" font-size="9" font-weight="bold" letter-spacing="0" mask="url(#maps_br-1-b)">
+      <tspan x="973.501" y="557.245">30 </tspan>
+    </text>
+    <text fill="#FFFFFE" font-family="NeutraText-DemiAlt, Neutra Text" font-size="9" font-weight="400" mask="url(#maps_br-1-b)">
+      <tspan x="983.5" y="557.245"> Mosaic East</tspan>
+    </text>
+    <text fill="#FFFFFE" font-family="NeutraText-BoldSC, Neutra Text" font-size="9" font-weight="bold" letter-spacing="-.009" mask="url(#maps_br-1-b)">
+      <tspan x="973.501" y="573.247">3</tspan> <tspan x="977.793" y="573.247" letter-spacing=".072">1</tspan> <tspan x="980.916" y="573.247"> </tspan>
+    </text>
+    <text fill="#FFFFFE" font-family="NeutraText-DemiAlt, Neutra Text" font-size="9" font-weight="400" mask="url(#maps_br-1-b)">
+      <tspan x="983.5" y="573.247">FjallRaven</tspan>
+    </text>
+    <text fill="#FFFFFE" font-family="NeutraText-BoldSC, Neutra Text" font-size="9" font-weight="bold" letter-spacing="-.019" mask="url(#maps_br-1-b)">
+      <tspan x="973.501" y="589.249">3</tspan> <tspan x="977.693" y="589.249" letter-spacing=".154">2</tspan> <tspan x="982.086" y="589.249"> </tspan>
+    </text>
+    <text fill="#FFFFFE" font-family="NeutraText-DemiAlt, Neutra Text" font-size="9" font-weight="400" mask="url(#maps_br-1-b)">
+      <tspan x="983.5" y="589.249">Barbette</tspan>
+    </text>
+    <text fill="#FFFFFE" font-family="NeutraText-BoldSC, Neutra Text" font-size="9" font-weight="bold" letter-spacing="0" mask="url(#maps_br-1-b)">
+      <tspan x="973.501" y="605.251">33 </tspan>
+    </text>
+    <text fill="#FFFFFE" font-family="NeutraText-DemiAlt, Neutra Text" font-size="9" font-weight="400" mask="url(#maps_br-1-b)">
+      <tspan x="983.5" y="605.251">Burton</tspan>
+    </text>
+    <text fill="#FFFFFE" font-family="NeutraText-BoldSC, Neutra Text" font-size="9" font-weight="bold" letter-spacing="0" mask="url(#maps_br-1-b)">
+      <tspan x="973.501" y="621.253">34 </tspan>
+    </text>
+    <text fill="#FFFFFE" font-family="NeutraText-DemiAlt, Neutra Text" font-size="9" font-weight="400" mask="url(#maps_br-1-b)">
+      <tspan x="983.5" y="621.253">Granada Theatre</tspan>
+    </text>
+    <text fill="#FFFFFE" font-family="NeutraText-BoldSC, Neutra Text" font-size="9" font-weight="bold" letter-spacing="0" mask="url(#maps_br-1-b)">
+      <tspan x="973.501" y="637.255">35 </tspan>
+    </text>
+    <text fill="#FFFFFE" font-family="NeutraText-DemiAlt, Neutra Text" font-size="9" font-weight="400" mask="url(#maps_br-1-b)">
+      <tspan x="983.5" y="637.255">CorePower Yoga</tspan>
+    </text>
+  </g>
+</svg>

@@ -1,0 +1,32 @@
+// 
+// Pastel color badges
+// 
+
+@each $color, $value in $theme-colors {
+  .badge-pastel-#{$color} {
+    color: $value;
+    background-color: theme-color-level($color, -11);
+
+    @at-root a#{&} {
+      @include hover-focus {
+        color: $value;
+        background-color: theme-color-level($color, -9);
+      }
+
+      &:focus,
+      &.focus {
+        outline: 0;
+        box-shadow: 0 0 0 $badge-focus-width rgba($value, .5);
+      }
+    }
+  }
+}
+
+// 
+// Large badge size
+// 
+
+.badge-lg {
+  padding: $badge-padding-y-lg $badge-padding-x-lg;
+  font-size: $badge-font-size-lg;
+}

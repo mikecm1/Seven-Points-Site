@@ -1,0 +1,42 @@
+{% if page.footer_cta_style != "hide" %}
+{% if page.footer_cta_style == "offset" %}
+<section class="bg-light">
+  <div class="container-fluid py-7 bg-dark" style="background-color: #080407 !important;">
+    <div class="container mt-n8 position-absolute left-0 right-0 top-0">
+      {% else %}
+      <section class="py-7 bg-dark">
+        <div>
+          <div class="container">
+            {% endif %}
+            {% assign info = site.data.global %}
+
+            <div class="bg-gradient-1 rounded-lg p-4 p-md-6">
+              <div class="d-flex flex-column flex-lg-row align-items-center text-center text-lg-left">
+                <div class="row align-items-center text-center text-lg-left">
+                  <div class="col-lg-8 col-xl-7">
+                    <div class="media flex-column flex-lg-row align-items-center">
+                      <div class="media-body mt-4 mt-lg-0 text-white">
+                        <h2 class="display-3 font-weight-normal">
+                          {{ info.footer_cta.headline }}
+                        </h2>
+                        <p class="text-white mt-3 mb-0">
+                          {{ info.footer_cta.body }}
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-xl-5 mt-5 mt-lg-0 ml-auto d-flex pl-lg-5 pl-xl-8">
+                    <a href="#" class="btn btn-white btn-lg shadow-sm hover-lift font-weight-bold font-size-normal w-100">
+                      {{ info.footer_cta.cta_text }}
+                      <i class="fa fa-chevron-right fa-xs ml-2"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+      </section>
+      {% endif %}

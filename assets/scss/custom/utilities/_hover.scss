@@ -1,0 +1,116 @@
+//
+// Scale element on hover
+//
+
+.hover-scale {
+  @include transition(transform .25s ease, box-shadow .25s ease);
+  @include hover() { 
+    transform: scale3d(1.09, 1.09, 1.09);
+    box-shadow: $box-shadow-lg !important;
+  }
+}
+
+
+//
+// Lift with shadow
+//
+
+.hover-lift {
+  @include transition(box-shadow .25s ease, transform .25s ease, color .25s ease, background-color .15s ease-in);
+
+  i.hover-lift-icon { @include transition(all .2s ease); }
+
+  @include hover() {
+    box-shadow: $box-shadow-lg !important;
+    transform: translate3d(0,-5px,0);
+
+    i.hover-lift-icon { margin-left: 15px !important; }
+  }
+}
+
+.hover-lift-light {
+  @include transition(box-shadow .25s ease, transform .25s ease, color .25s ease, background-color .15s ease-in);
+
+  i.hover-lift-icon { @include transition(all .2s ease); }
+
+  @include hover() {
+    box-shadow: $box-shadow-light-lg !important;
+    transform: translate3d(0,-5px,0);
+
+    i.hover-lift-icon { margin-left: 15px !important; }
+  }
+}
+
+// 
+// Hover lift for RTL
+// 
+
+body.rtl {
+  .hover-lift,
+  .hover-lift-right {
+    @include hover() {
+      i.hover-lift-icon {
+        margin-left: initial !important;
+        margin-right: 15px !important;
+      }
+    }
+  }
+}
+
+
+
+//
+// Hover mask to be used with a bg cover
+//
+
+.hover-mask {
+  overflow: hidden;
+  display: block;
+  position: relative;
+
+  &:hover {
+    .hover-mask-content {
+      opacity: 1;
+
+      .hover-mask-content-up,
+      .hover-mask-content-down, {
+        transform: none;
+      }
+    }
+
+    .hover-mask-image:not(.jarallax) {
+      transform: scale3d(1.15, 1.15, 1.15);
+    }
+  }
+}
+
+.hover-mask-image {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: block;
+  height: 100%;
+  @include transition(transform .5s ease);
+}
+
+.hover-mask-content {
+  display: block;
+  position: absolute !important;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  z-index: 9;
+  @include transition(all .4s ease);
+}
+
+.hover-mask-content-up {
+  transform: translateY(-15px);
+  @include transition(transform .4s ease);
+}
+
+.hover-mask-content-down {
+  transform: translateY(15px);
+  @include transition(transform .4s ease);
+}

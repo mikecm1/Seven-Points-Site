@@ -1,0 +1,111 @@
+//
+// Timeline component
+//
+
+// Wrapper
+
+.timeline {
+  position: relative;
+  @include clearfix();
+
+  // Continous center line
+
+  &:before {
+    content: '';
+    position: absolute;
+    background: $timeline-bg;
+    width: 5px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: 0 auto;
+  }
+}
+
+
+// Single post, starts left then right
+
+.timeline-post {
+  position: relative;
+  float: left;
+  width: 50%;
+
+  @include media-breakpoint-down(sm) {
+    width: 100%;
+  }
+
+  // Line connecting with post marker
+
+  &:before {
+    content: '';
+    position: absolute;
+    width: 90px;
+    height: 4px;
+    background: $timeline-bg;
+    right: 0;
+    top: 61px;
+
+    @include media-breakpoint-down(sm) {
+      display: none;
+    }
+  }
+
+  // Right-side posts
+
+  &:nth-child(2n) {
+    float: right;
+
+    &:before {
+      right: inherit;
+      left: 0;
+    }
+
+    .timeline-post-marker {
+      right: inherit;
+      left: -8px;
+    }
+
+    .timeline-post-content {
+      @include media-breakpoint-up(md) {
+        float: right;
+      }
+    }
+  }
+
+  // Separation between posts
+
+  & + .timeline-post {
+    margin-top: $timeline-post-margin-top;
+  }
+}
+
+
+// Container for the actual post content
+
+.timeline-post-content {
+  position: relative;
+
+  @include media-breakpoint-up(md) {
+    width: 85%;
+    float: left;
+  }
+}
+
+
+// Dot connecting with center line
+
+.timeline-post-marker {
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  border-radius: 25px;
+  background: $timeline-bg;
+  top: 55px;
+  border: 3px solid lighten($timeline-bg, 6%);
+  right: -8px;
+
+  @include media-breakpoint-down(sm) {
+    display: none;
+  }
+}

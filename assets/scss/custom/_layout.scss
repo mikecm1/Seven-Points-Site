@@ -1,0 +1,49 @@
+@import url("https://use.typekit.net/brj6nel.css");
+
+@font-face {
+    font-family: 'NeutraWeb';
+    src: url('../assets/fonts/NeutraText-BoldAlt.woff2') format('woff2'),
+        url('../assets/fonts/NeutraText-BoldAlt.woff') format('woff'),
+        url('../assets/fonts/NeutraText-BoldAlt.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'NeutraWeb';
+    src: url('../assets/fonts/NeutraText-BookAlt.woff2') format('woff2'),
+        url('../assets/fonts/NeutraText-BookAlt.woff') format('woff'),
+        url('../assets/fonts/NeutraText-BookAlt.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'NeutraWeb';
+    src: url('../assets/fonts/NeutraText-DemiAlt.woff2') format('woff2'),
+        url('../assets/fonts/NeutraText-DemiAlt.woff') format('woff'),
+        url('../assets/fonts/NeutraText-DemiAlt.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'NeutraWeb';
+    src: url('../assets/fonts/NeutraText-LightAlt.woff2') format('woff2'),
+        url('../assets/fonts/NeutraText-LightAlt.woff') format('woff'),
+        url('../assets/fonts/NeutraText-LightAlt.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+  overflow-x: hidden;
+
+  &.rtl {
+    direction: rtl;
+  }
+}

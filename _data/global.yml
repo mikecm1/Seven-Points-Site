@@ -1,0 +1,20 @@
+---
+contact:
+  email: support@empyr.com
+  phone: 555.555.5555
+  address_1: 500 Empyr Ave
+  address_2: ''
+  city: San Diego
+  state: CA
+  postal_code: "92121"
+  country: US
+  twitter: ''
+footer_cta:
+  headline: Get in Touch
+  body: Want to know what’s open and what’s arriving soon? Interested in becoming a tenant? Looking to find out more about our Seven Points vision? We’d love to hear from you.
+  cta_text: Contact Us
+  cta_url: "#"
+
+nav_details:
+  cta_url: "/"
+  cta_text: Get Started

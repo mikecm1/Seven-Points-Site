@@ -1,0 +1,85 @@
+// Contents
+// 
+// Footer
+// Footer header
+// Footer link
+// Footer social icon
+// Footer text
+// Footer brand
+
+// 
+// Styles for switching between footers with light or dark background.
+// 
+
+.footer {
+padding-top: 4.45rem;
+    padding-bottom: 2.45rem;
+}
+
+.footer-header {
+  font-size: $footer-header-font-size;
+  text-transform: uppercase;
+  font-weight: $font-weight-bolder;
+  letter-spacing: 2px;
+}
+
+.footer-link {
+  font-size: $footer-link-font-size;
+  display: block;
+}
+
+.footer-text {
+  font-size: $footer-text-font-size;
+}
+
+
+// Dark links against a light background
+
+.footer-light {
+  .footer-header {
+    color: $footer-light-header-color;
+  }
+
+  .footer-link {
+    color: $footer-light-link-color;
+  }
+
+  .footer-social-icon {
+    background-color: $footer-light-social-icon-bg;
+    color: $footer-light-social-icon-color;
+  }
+
+  .footer-text {
+    color: $footer-light-text-color;
+  }
+
+  .footer-brand {
+    color: $footer-light-brand-color;
+  }
+}
+
+
+// White links against a dark background
+
+.footer-dark {
+  .footer-header {
+    color: $secondary;
+  }
+
+  .footer-link {
+    color: $footer-dark-link-color;
+  }
+
+  .footer-social-icon {
+    background-color: $footer-dark-social-icon-bg;
+    color: $footer-dark-social-icon-color;
+  }
+
+  .footer-text {
+    color: $footer-dark-text-color;
+  }
+
+  .footer-brand {
+    color: $footer-dark-brand-color;
+  }
+}

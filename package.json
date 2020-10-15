@@ -1,0 +1,50 @@
+{
+  "name": "jekyll-bootstrap-4",
+  "version": "0.0.0",
+  "description": "Jekyll + Gulp + Browser-sync + Bootstrap 4 + Font-Awesome + Magnific popup",
+  "main": "gulpfile.js",
+  "author": "David Malone - david@souldesign.net.nz",
+  "keywords": [
+    "Jekyll",
+    "Gulp",
+    "Scss",
+    "Bootstrap",
+    "Jquery",
+    "Jquery match height",
+    "Font awesome",
+    "Magnific popup",
+    "Browser-sync"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5",
+    "autoprefixer": "^9.8.6",
+    "bootstrap": "^4.5.2",
+    "browser-sync": "^2.26.12",
+    "cssnano": "^4.1.10",
+    "font-awesome": "^4.7.0",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-flatten": "^0.4.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-uglify": "^3.0.2",
+    "is-relative": "^1.0.0",
+    "jquery": "^3.5.1",
+    "jquery-match-height": "^0.7.2",
+    "magnific-popup": "^1.1.0",
+    "popper.js": "^1.16.1",
+    "postcss-pxtorem": "^5.1.1",
+    "vinyl-source-stream": "^2.0.0"
+  },
+  "resolutions": {
+    "minimist": "^1.2.5"
+  },
+  "scripts": {
+    "preinstall": "npx npm-force-resolutions"
+  }
+}

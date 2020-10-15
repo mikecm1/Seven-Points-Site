@@ -1,0 +1,72 @@
+// 
+// Stat card component
+// 
+
+.statcard {
+  border-radius: $border-radius;
+  padding: $statcard-padding-y $statcard-padding-x;
+}
+
+.statcard-value {
+  display: flex;
+  align-items: center;
+}
+
+.statcard-change {
+  font-size: $statcard-change-size;
+  margin-left: .75rem;
+
+  &:after {
+    content: '';
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 3px;
+    vertical-align: middle;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+  }
+
+  &.statcard-change-positive {
+    color: theme-color("success");
+
+    &:after {
+      border-top: 0;
+      border-bottom: 5px solid;
+    }
+  }
+
+  &.statcard-change-negative {
+    color: theme-color("danger");
+
+    &:after {
+      border-bottom: 0;
+      border-top: 5px solid;
+    }
+  }
+}
+
+.statcard-label {
+  text-transform: uppercase;
+  letter-spacing: .7px;
+  font-size: $statcard-label-size;
+  font-weight: $statcard-label-font-weight;
+  color: $statcard-label-color;
+}
+
+// 
+// Context statcards
+// 
+
+@each $color, $value in $theme-colors {
+  $color-yiq: color-yiq($value);
+  .statcard-#{$color} {
+    background: $value;
+    color: $color-yiq;
+
+    .statcard-label,
+    .statcard-change {
+      color: $color-yiq !important;
+    }
+  }
+}

@@ -1,0 +1,59 @@
+.navbar {
+  z-index: $zindex-navbar;
+  @include transition($bg-transition);
+  font-size: 1.075rem;
+
+  // dropdpowns hover effect
+  .dropdown {
+    .dropdown-menu {
+      @include media-breakpoint-up(lg) {
+        display: block;
+        visibility: hidden;
+        opacity: 0;
+        z-index: 0;
+        transform: translateY(10px);
+        @include transition(all .25s);
+      }
+    }
+
+    &.show {
+      > .dropdown-menu {
+        @include media-breakpoint-up(lg) {
+          opacity: 1;
+          visibility: visible;
+          z-index: $zindex-navbar;
+          transform: none !important;
+        }
+      }
+    }
+  }
+
+  // add a box shadow to dropdown menus
+  .dropdown-menu {
+    @include media-breakpoint-up(lg) {
+      margin-top: 0;
+      box-shadow: $navbar-dropdown-box-shadow-lg;
+    }
+  }
+}
+
+// Navbar for the ecommerce pages
+
+.navbar-ecommerce  {
+  position: relative;
+  z-index: $zindex-navbar-ecommerce;
+}
+
+// Add a bg color to navbars that have .bg-transparent for mobile devices
+
+.navbar-light {
+  &.bg-transparent.navbar-toggled {
+    background-color: $white !important;
+  }
+}
+
+.navbar-dark {
+  &.bg-transparent.navbar-toggled {
+    background-color: $gray-900 !important;
+  }
+}

@@ -1,0 +1,66 @@
+// 
+// Extra transform utilities
+// 
+
+.flip-x {
+  transform: scaleX(-1);
+}
+
+.flip-y {
+  transform: scaleY(-1);
+}
+
+.rotate--90-deg {
+  transform: rotate(-90deg);
+  transform-origin: center left;
+}
+
+
+// image skews
+
+.img-skew {
+  perspective: 1550px;
+  transform-style: preserve-3d;
+}
+
+.img-skew-right {
+  perspective-origin: center;
+
+  .img-skew-pic {
+    transform: rotateY(15deg) rotateX(5deg) rotateZ(-5deg);
+    backface-visibility: hidden;
+  }
+}
+
+.img-skew-left {
+  perspective-origin: left center;
+
+  .img-skew-pic {
+    transform: rotateY(-22deg) rotateX(6deg) rotateZ(5deg);
+    backface-visibility: hidden;
+  }
+}
+
+
+// card skews
+
+.card-skew-left {
+  transform: perspective(3000px) rotateY(-15deg) rotateX(4deg) rotate(2deg);
+}
+
+.card-skew-right {
+  transform: perspective(3000px) rotateY(14deg) rotate(-2deg);
+}
+
+
+// translate-y positive and negative values
+
+@for $i from 1 through 10 {
+  .translate-y-#{$i} {
+    transform: translateY(#{$i}px);
+  }
+
+  .translate-y--#{$i} {
+    transform: translateY(-#{$i}px);
+  }
+}

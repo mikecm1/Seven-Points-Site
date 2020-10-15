@@ -1,0 +1,85 @@
+// Enable background cover 
+
+.bg-cover {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  overflow: hidden;
+   .display-1 {
+     @include media-breakpoint-up(md) {
+    border-left: 7px solid #9A10A1;
+     }
+}
+.font-size-lg {
+  @include media-breakpoint-up(md) {
+    border-left: 7px solid transparent;
+  }
+}
+}
+
+// Pastel theme colors
+
+@each $color, $value in $theme-colors {
+  .bg-pastel-#{$color} {
+    background-color: theme-color-level($color, -11) !important;
+  }
+}
+
+// Gradients
+
+.bg-gradient-light {
+  background: linear-gradient(to top, theme-color("light") 0, #fff 100%);
+}
+
+.bg-gradient-light-top {
+  background: linear-gradient(to bottom, theme-color("light") 0, #fff 100%);
+}
+
+.bg-gradient-sky {
+  background: linear-gradient(to top, theme-color("sky") 0, #fff 100%);
+}
+
+.bg-gradient-sky-top {
+  background: linear-gradient(to bottom, theme-color("sky") 0, #fff 100%);
+}
+
+// Grays
+
+@each $key, $value in $grays {
+  .bg-gray-#{$key} {
+    background: $value !important;
+  }
+}
+
+// Topography patterns
+
+.bg-topography-light {
+  background-image: url("../assets/img/svg/topography-light.svg");
+}
+
+.bg-topography-dark {
+  background-image: url("../assets/img/svg/topography-dark.svg");
+}
+
+// Darken backgrounds on hover
+// for normal bgs and pastel too
+// see index-portfolio.html for an example
+
+@each $color, $value in $theme-colors {
+  .bg-#{$color}-hover {
+    transition: background-color .4s linear;
+
+    @include hover() {
+      background-color: darken($value, 7%) !important;
+    }
+  }
+
+  .bg-pastel-#{$color}-hover {
+    transition: background-color .4s linear;
+
+    @include hover() {
+      $pastel: theme-color-level($color, -11);
+      background-color: darken($pastel, 7%) !important;
+    }
+  }
+}

@@ -1,0 +1,19 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+  <link rel="stylesheet" type="text/css" href="{{ relBase }}/css/vendor.min.css">
+  <!-- <link rel="stylesheet" type="text/css" href="{{ relBase }}/assets/vendor/aos/aos.css">
+  <link rel="stylesheet" type="text/css" href="{{ relBase }}/assets/vendor/fancybox/jquery.fancybox.css">
+  <link rel="stylesheet" type="text/css" href="{{ relBase }}/assets/vendor/pikaday/pikaday.css">
+  <link rel="stylesheet" type="text/css" href="{{ relBase }}/assets/vendor/jarallax/dist/jarallax.css">
+  <link rel="stylesheet" type="text/css" href="{{ relBase }}/assets/vendor/highlight/styles.css">
+  <link rel="stylesheet" type="text/css" href="{{ relBase }}/assets/vendor/swiper/swiper.css">
+  <link rel="stylesheet" type="text/css" href="{{ relBase }}/assets/vendor/atvImg/atvImg.css"> -->
+    <link rel="stylesheet" href="{{ relBase }}/css/main.css">
+    <!-- <link rel="stylesheet" href="{{ relative }}/css/main.css"> -->
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+</head>

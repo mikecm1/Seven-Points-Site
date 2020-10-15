@@ -1,0 +1,125 @@
+// 
+// New icon nav component
+// see docs/navs.html for more information
+// 
+
+.iconav {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  z-index: $zindex-iconav;
+  overflow-y: auto;
+
+  @include media-breakpoint-up(lg) {
+    top: 0;
+    bottom: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+
+    &.iconav-left { left: 0; }
+    &.iconav-right { right: 0; }
+  }
+
+  @include media-breakpoint-down(md) {
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+
+  .iconav-brand {
+    display: block;
+    padding: $iconav-brand-padding-y $iconav-brand-padding-x;
+    text-align: center;
+  }
+
+  .iconav-slider {
+    @include media-breakpoint-up(lg) {
+      flex: 1 1 auto;
+    }
+
+    @include media-breakpoint-down(md) {
+      overflow: auto;
+      -webkit-overflow-scrolling: touch;
+      white-space: nowrap;
+    }
+  }
+
+  .iconav-nav {
+    flex-wrap: nowrap;
+    height: 100%;
+
+    @include media-breakpoint-up(lg) {
+      flex-direction: column;
+    }
+  }
+
+  .nav-link {
+    text-align: center;
+    @include transition(background-color .2s);
+  }
+
+  .nav-link-label {
+    font-size: .9rem;
+    display: block;
+    margin-top: .5rem;
+  }
+}
+
+// 
+// iconav colors
+// 
+
+.iconav-light {
+  background-color: $iconav-light-bg;
+  border: 1px solid $iconav-light-border-color;
+
+  .iconav-brand {
+    background-color: $iconav-light-brand-bg;
+  }
+
+  @include media-breakpoint-up(lg) {
+    .nav-item + .nav-item .nav-link {
+      border-top: 1px solid $iconav-light-border-color;
+    }
+  }
+
+  .nav-link {
+    color: $iconav-light-link-color;
+
+    @include hover-focus() {
+      background-color: $iconav-light-hover-bg;
+    }
+
+    &.active {
+      background-color: $iconav-light-active-bg;
+    }
+  }
+}
+
+.iconav-dark {
+  background-color: $iconav-dark-bg;
+  border: none;
+
+  .iconav-brand {
+    background-color: $iconav-dark-brand-bg;
+  }
+
+  @include media-breakpoint-up(lg) {
+    .nav-item + .nav-item .nav-link {
+      border-top: 1px solid $iconav-dark-border-color;
+    }
+  }
+
+  .nav-link {
+    color: $iconav-dark-link-color;
+
+    @include hover-focus() {
+      background-color: $iconav-dark-hover-bg;
+    }
+
+    &.active {
+      background-color: $iconav-dark-active-bg;
+      color: $white;
+    }
+  }
+}

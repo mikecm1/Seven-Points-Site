@@ -1,0 +1,35 @@
+// 
+// Pricing (monthly/anually billing) tabs
+// 
+
+.switch-prices {
+  position: relative;
+  height: 70px;
+
+  @include media-breakpoint-up(md) {
+    height: 85px;
+  }
+}
+
+.switch-price {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  opacity: 0;
+
+  @include transition(opacity .3s ease-in-out, transform .3s ease-in-out);
+
+  &.switch-price-active {
+    opacity: 1;
+    transform: translateY(0px) !important;
+  }
+
+  &.switch-price-monthly {
+    transform: translateY(25px);
+  }
+
+  &.switch-price-yearly {
+    transform: translateY(-25px);
+  }
+}

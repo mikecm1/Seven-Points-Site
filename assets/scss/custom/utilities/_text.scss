@@ -1,0 +1,85 @@
+// 
+// Gray colors
+// 
+
+@each $key, $value in $grays {
+  .text-gray-#{$key} {
+    color: $value !important;
+  }
+}
+
+// 
+// Pastel colors
+// 
+
+@each $color, $value in $theme-colors {
+  $pastel: theme-color-level($color, -6);
+
+  .text-pastel-#{$color} {
+    color: $pastel !important;
+
+    @if $emphasized-link-hover-darken-percentage != 0 {
+      @at-root a#{&} {
+        @include hover-focus() {
+          color: darken($pastel, $emphasized-link-hover-darken-percentage) !important;
+        }
+      }
+    }
+  }
+}
+
+// 
+// Extra text helpers
+//
+
+.font-georgia { font-family: Georgia, "Merriweather", Arial; }
+.font-merriweather { font-family: "Merriweather", Georgia; }
+
+.font-size-xs { font-size: $font-size-xs !important; }
+.font-size-sm { font-size: $font-size-sm !important; }
+.font-size-md { font-size: 16px !important; }
+.font-size-18 { font-size: 18px !important; }
+.font-size-normal { font-size: $font-size-base !important; }
+.font-size-lg { font-size: $font-size-lg !important; }
+
+.text-uppercase { letter-spacing: .8px; }
+.line-height-lg { line-height: 1.6; }
+
+.letter-spacing-lg { letter-spacing: 2px; }
+.letter-spacing-xl { letter-spacing: 5px; }
+.letter-spacing-xxl { letter-spacing: 10px; }
+
+.text-line-through { text-decoration: line-through; }
+.text-underline { text-decoration: underline; }
+
+.text-bg-clip {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+
+  // if we can clip it, do it
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+
+  // fallback text color
+  color: $white;
+}
+
+
+// 
+// Shortcut for a combination of styles that are commonly used throughout the theme
+// in buttons, subtitles, etc to prevent repetition.
+// 
+
+.text-uppercase-bold-sm {
+  text-transform: uppercase !important;
+  font-weight: $font-weight-bold !important;
+  letter-spacing: 2px !important;
+  font-size: 14px !important;
+}
+
+.text-uppercase-xs {
+  text-transform: uppercase !important;
+  letter-spacing: 2px !important;
+  font-size: $font-size-xs !important;
+}

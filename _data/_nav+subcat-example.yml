@@ -1,0 +1,16 @@
+# example /_data/navigation.yml
+- title: "About Seven Points"
+  href: /about/
+
+- title: "Future Vision"
+  href: /vision/
+  subcategories:
+    - subtitle: "Example"
+      subhref: "#"
+    - subtitle: "Example"
+      subhref: "#"
+    - subtitle: "Example"
+      subhref: "#"
+
+- title: "News & Updates"
+  href: /news/

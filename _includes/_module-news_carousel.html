@@ -1,0 +1,49 @@
+<section class="bg-gray-100">
+  <div class="pt-6 pt-lg-7 pb-10">
+    <div class="container pb-6">
+      <div class="row align-items-start">
+        <div class="col-lg-6">
+          <h2 class="font-base">
+            {{ page.section_carousel.headline }}
+          </h2>
+        </div>
+        <div class="col-lg-6 pl-lg-5">
+          <p class="text-muted my-0">
+            {{ page.section_carousel.body }}
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="swiper-container" data-toggle="swiper" data-options='{"breakpoints": { "768": { "slidesPerView": 1 }, "920": { "slidesPerView": 3 }, "2000": { "slidesPerView": 4 } }, "freeMode": false, "grabCursor": true, "loop": false, "speed": 500, "spaceBetween": 25, "navigation": { "nextEl": ".swiper-custom-button-next", "prevEl": ".swiper-custom-button-prev" } }'>
+        <div class="swiper-wrapper d-flex align-items-center">
+          {% include swiper-card.html %}
+          {% include swiper-card.html %}
+          {% include swiper-card.html %}
+          {% include swiper-card.html %}
+          {% include swiper-card.html %}
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid pr-4 mt-3">
+      <div class="d-flex align-items-center justify-content-center justify-content-md-end">
+        <a href="#" class="swiper-custom-button-prev text-dark">
+          <i class="fas fa-arrow-left fa-lg"></i>
+        </a>
+        <a href="#" class="swiper-custom-button-next ml-4 text-dark">
+          <i class="fas fa-arrow-right fa-lg"></i>
+        </a>
+      </div>
+    </div>
+    <div class="container mb-5">
+      <a class="btn btn-lg btn-secondary" href="">
+        See All News
+      </a>
+    </div>
+  </div>
+  <div class="custom-shape-divider-bottom">
+    <svg style="transform: none" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+      <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" fill="#e9ddfa"></path>
+    </svg>
+  </div>
+</section>

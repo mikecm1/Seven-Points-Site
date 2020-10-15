@@ -1,0 +1,71 @@
+// 
+// Responsive positions
+// 
+
+@each $breakpoint in map-keys($grid-breakpoints) {
+  @include media-breakpoint-up($breakpoint) {
+    $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
+
+    @if($infix != "") {
+      @each $position in $positions {
+        .position#{$infix}-#{$position} { position: $position !important; }
+      }
+    }
+
+    // Centering
+
+    .center-x#{$infix} { 
+      left: 50%;
+      transform: translate3d(-50%, 0, 0);
+    }
+
+    .center-y#{$infix} { 
+      top: 50%;
+      transform: translate3d(0, -50%, 0);
+    }
+
+    .center-xy#{$infix} { 
+      top: 50%;
+      left: 50%;
+      transform: translate3d(-50%, -50%, 0);
+    }
+  }
+}
+
+
+// 
+// Extra helpers
+// 
+
+.top-0 {
+  top: 0!important;
+}
+
+.right-0 {
+  right: 0!important;
+}
+
+.bottom-0 {
+  bottom: 0!important;
+}
+
+.left-0 {
+  left: 0!important;
+}
+
+
+// 
+// Relative top helpers
+// 
+
+@for $i from 1 through 10 {
+  .relative-top-#{$i} {
+    position: relative;
+    top: #{$i}px;
+  }
+
+  .relative-top--#{$i} {
+    position: relative;
+    top: -#{$i}px;
+  }
+}

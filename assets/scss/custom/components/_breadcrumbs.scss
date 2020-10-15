@@ -1,0 +1,41 @@
+//
+// Change breadcrumbs separator
+//
+
+.breadcrumb-item {
+  + .breadcrumb-item {
+    &::before {
+      font-family: 'Font Awesome 5 Free';
+      font-weight: 900;
+      font-size: .65em;
+      content: "\f054";
+      align-self: center;
+    }
+  }
+}
+
+
+//
+// Breadcrumb for RTL
+//
+
+body.rtl {
+  .breadcrumb-item {
+    &:last-child:after {
+      content: "";
+    }
+
+    &:before {
+      content: "";
+    }
+
+    &:after {
+      padding-right: $breadcrumb-item-padding;
+      font-family: 'Font Awesome 5 Free';
+      font-weight: 900;
+      font-size: .65em;
+      content: "\f053";
+      align-self: center;
+    }
+  }
+}
